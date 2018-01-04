@@ -50,7 +50,7 @@ p {
 }
 
 .img-1 {
-    background-image: url("Typing.jpg");
+    background-image: url("./images/Typing.jpg");
     min-height: 100%;
     position: relative;
     opacity: .90;
@@ -62,7 +62,7 @@ p {
 }
 
 .img-2 {
-    background-image: url("michael.jpg");
+    background-image: url("./images/michael.jpg");
     min-height: 350px;
     position: relative;
     opacity: .90;
@@ -74,7 +74,7 @@ p {
 }
 
 .img-3 {
-    background-image: url("goals.jpg");
+    background-image: url("./images/goals.jpg");
     min-height: 400px;
     position: relative;
     opacity: .95;
@@ -86,7 +86,7 @@ p {
 }
 
 .img-4 {
-    background-image: url("brain_machine.jpg");
+    background-image: url("./images/brain_machine.jpg");
     min-height: 400px;
     position: relative;
     opacity: .85;
@@ -98,7 +98,7 @@ p {
 }
 
 .img-5 {
-    background-image: url("meetup.jpg");
+    background-image: url("./images/meetup.jpg");
     min-height: 400px;
     position: relative;
     opacity: .85;
@@ -110,7 +110,7 @@ p {
 }
 
 .img-6 {
-    background-image: url("contact.jpg");
+    background-image: url("./images/contact.jpg");
     min-height: 250px;
     position: relative;
     opacity: .85;
