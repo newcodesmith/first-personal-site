@@ -1,0 +1,336 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya|Open+Sans:300,300italic,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald|Lora:400,700,400italic);
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+#main-nav ul {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b485880;
+    z-index: 100;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline;
+}
+
+#main-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+}
+
+#main-nav li a:hover {
+    text-decoration: underline;
+    background-color: #1c232b;
+}
+
+#main-nav .active {
+    text-decoration: underline;
+    background-color: #1c232b;
+}
+
+.img-1 {
+    background-image: url("Typing.jpg");
+    min-height: 100%;
+    position: relative;
+    opacity: .90;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c4858;
+}
+
+.img-2 {
+    background-image: url("michael.jpg");
+    min-height: 350px;
+    position: relative;
+    opacity: .90;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c4858;
+}
+
+.img-3 {
+    background-image: url("goals.jpg");
+    min-height: 400px;
+    position: relative;
+    opacity: .95;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c4858;
+}
+
+.img-4 {
+    background-image: url("brain_machine.jpg");
+    min-height: 400px;
+    position: relative;
+    opacity: .85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c4858;
+}
+
+.img-5 {
+    background-image: url("meetup.jpg");
+    min-height: 400px;
+    position: relative;
+    opacity: .85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c4858;
+}
+
+.img-6 {
+    background-image: url("contact.jpg");
+    min-height: 250px;
+    position: relative;
+    opacity: .85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c4858;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #282E34;
+}
+
+.space-div {
+    padding: 27.5px;
+    position: relative;
+}
+
+#about {
+    background-color: #514663;
+}
+
+#about_me {
+    background-color: #514663;
+}
+
+#about_me p {
+    size: 24px;
+}
+
+#goals {
+    background-color: #795C5F;
+}
+
+#learn {
+    background-color: #658E9C;
+}
+
+#meet {
+    background-color: #8CBA80;
+}
+
+.info-div {
+    padding: 27.5px;
+    position: relative;
+}
+
+.info-div p {
+    padding: 0px 40px;
+    font-size: 18px;
+}
+
+#home span {
+    border: 1px;
+    border-color: #fff;
+    border-style: solid;
+    color: #fff;
+    background-color: #3b485880;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 24px "Lato", sans-serif;
+    text-decoration: underline;
+    color: #111;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(240, 240, 240);
+    padding: 18px 18px;
+    width: initial;
+}
+
+p {
+    color: #fff;
+}
+
+.info-nav {
+    width: 120px;
+    margin: 20px;
+}
+
+.info-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    display: block;
+    color: white;
+    background-color: #3b485880;
+    text-align: center;
+    width: 150px;
+    border-style: none;
+    padding: 20px; //margin-bottom: 2px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: #1c232b;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    text-decoration: none; //margin-bottom: 2px;
+}
+
+.info-nav .active {
+    text-decoration: underline;
+    background-color: #1c232b;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.info-content {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.info-content-box {
+    background-color: #3b485880;
+    height: 525px;
+    max-width: 100vw;
+    min-width: 75vw;
+    margin: 20px;
+    overflow: auto;
+}
+
+.info-content-box p {
+    margin: 40px;
+    padding: 0px;
+    max-width: 100vw;
+    min-width: 75vw;
+    font-size: 14px;
+    margin-bottom: 300px;
+}
+
+.contact_space-div {
+    padding: 27.5px;
+    position: relative;
+    background-color: #CACF85;
+}
+
+#contact {
+    background-color: #CACF85; //height: 400px;
+}
+
+.contact-info-box {
+    background-color: #3b485880;
+    height: 200px;
+    max-width: 100vw;
+    margin: 20px;
+    margin-left: 175px;
+}
+
+#contact p {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100vw;
+    height: 70px;
+    background-color: #3c4858;
+}
+
+footer span {
+    margin: 25px 20px;
+    color: #fff;
+}
+
+.site-social {
+    margin: 20px 10px;
+}
+
+.site-social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 30px;
+}
+
+._hidden {
+    display: none;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .img-1,
+    .img-2,
+    .img-3 {
+        background-attachment: scroll;
+    }
+}
+
+//color pallet
+//https://coolors.co/cacf85-8cba80-658e9c-795c5f-514663
