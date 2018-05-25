@@ -1,3 +1,5 @@
+#First Personal Site
+
 ##Purpose
 While studying at Galvanize we did many drills to help hone our skills. This site was my first real attempt at building a site from the ground up. Using some of the content from other drills I did I created this site. 
 
